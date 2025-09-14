@@ -1,0 +1,19 @@
+.app { height: 100vh; }
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.errorBanner {
+  max-width: 900px;
+  margin: 10px auto 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(239,68,68,0.35);
+  background: rgba(239,68,68,0.12);
+  color: #fecaca;
+  font-size: 13px;
+}
+
